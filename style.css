@@ -1,0 +1,30 @@
+.font{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Libre Baskerville', serif;
+}
+.background{
+    background-color: #DCF2F1;
+}
+
+.blue{
+    color: #365486!important;
+}
+.me{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+li{
+    list-style: georgian outside;
+}
+
+
+.center{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.contact-list{
+    text-align: center;
+    padding-bottom: 40px;
+}
