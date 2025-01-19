@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css"/>
 </head>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,103 +12,105 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Baskerville&display=swap" rel="stylesheet">
 
 <body>
-    <!-- Title -->
-    <section title>
-        <div class="background font">
-            <div class="pt-4 text-center">
-                <h1 class= "display-5 fw-bold text-body-emphasis pt-5">My name is <span class="blue">chicken</span></h1>
-                <div class="col-lg-6 mx-auto">
-                <p class="lead pt-3">And I am a future Software Engineer.</p>
-                <!-- 
-                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-laptop mb-5" viewBox="0 0 16 16">
-                    <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
-                </svg>
-                -->
-                </div>
-            </div>
+    <div>
+        <div class="center">
+            <h1>My name is <span class="blue slide">Alex</span></h1>
+            <h3>And I am a future software developer</h2>
         </div>
-    </section>
+    </div>
 
     <!-- About me -->
-    <section About me class=" background font">
-        <div class="container col-xxl-8 px-4 pb-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-              <div class="col-lg-6">
-                <img src="./Images/me.JPG" class="d-block mx-lg-auto img-fluid me" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-              </div>
-              <div class="col-lg-6 ">
-                <h1 class=" blue lh-1 mb-3 fw-bold">About Me</h1>
-                <p class="lead ">
-                    I am currently a Junior at the University of Minnesota, Twin Cities, majoring in Computer Science. My passion for Computer Science has come due to my belief that technology enables significant advancements in society. My current interests include learning <span class="blue fst-italic"> web development with languages like HTML/CSS, JavaScript, and SQL</span>, delving into <span class="blue fst-italic">data structures and algorithms</span>, and <span class="blue fst-italic">exploring AI</span>.
-                </p>
-              </div>
-            </div>
-          </div>
-    </section>
+    <div class="about-container">
+        <div class="slide">
+            <img src="./Images/me.JPG">
+        </div>
+
+        <div class="about-details">
+            <h2 class="blue fw-bold">About Me</h2>
+            <p>
+                I am currently a Junior at the University of Minnesota, Twin Cities, majoring in Computer Science. My passion for Computer Science stems from my belief that technology empowers transformative advancements in society.
+                My strengths lie in web development, utilizing a robust tech stack that includes <span class="blue fst-italic">React.js, HTML, CSS, Node.js, Express.js, and PostgreSQL</span>. Recently, I have been delving into AI and exploring ways to create impactful, real-world solutions through web development.
+            </p>
+        </div>
+    </div>
 
     <!-- Resume -->
-    <Section Resume class="background font">
-        <div class="container py-5 " id="featured-3">
-            <h2 class=" blue fw-bold center" >My Experience</h2>
-            <div class="row py-5  row-cols-lg-3 ">
+    <div >
+        <h2 class=" blue fw-bold center" >My Experience</h2>
+        <div>
 
-                <div class="feature section py-3">
-                    <h3 class="fs-2 text-body-emphasis "> Code The Gap</h3>
-                    <h4>January 2024 - May 2024</h4>
-                    <ul>
-                        <li>Volunteered at an elementary school to teach a class of K-7th grade students Python. </li>
-                        <li>Taught students basic programming concepts like variables, loops, and conditions.</li>
-                        <li>By the end of the program, students were able to create and explain basic programming concepts.</li>
-                    </ul>
+            <div class="about-container">
+                <div >
+                    <img src="./Images/cse.jpeg">
                 </div>
-
-                <div class="feature section py-3">
-                    <h3 class="fs-2 text-body-emphasis">Commuity Advisor</h3>
-                    <h4>August 2023 - May 2024</h4>
-                    <ul>
-                        <li>Assist 40 residents in academic and personal success.</li>
-                        <li>Organize and host floor events to create community and belonging.</li>
-                        <li>Guide difficult conversations between residents such as conflicts and disagreements.</li>
-                    </ul>
+        
+                <div class="about-details">
+                    <h2 >Teaching Assistant - Computational Linear Algebra</h2>
+                    <p>I lead a 50-minute weekly discussion session to help students deepen their understanding of computational linear algebra concepts and offer one-on-one assistance during office hours for course material and assignments.</p>
+                        
                 </div>
-
-                <div class="feature section py-3">
-                    <h3 class="fs-2 text-body-emphasis">Building Manager</h3>
-                    <h4>November 2022 - Present</h4>
-                    <ul>
-                        <li>Setup and teardown events; emphasis on customer service and hospitality.</li>
-                        <li>Help maintain exercise machine cleanliness.</li>
-                        <li>Ability to adapt quickly under pressure; manage emergencies such as injuries in a fast
-                            and controlled manner.</li>
-                    </ul>
-                </div>
-                
             </div>
-        </div>
-    </Section>
 
+            <div class="about-container">
+                <div class="about-details">
+                    <h2 >Agentic AI Development - Collaboration.AI</h2>
+                    <p>Collaborated with a team to design and build an AI agent that reverse-engineers community group dynamics using Relevance.ai, generating actionable insights to improve organizational productivity.</p>
+                        
+                </div>
+
+                <div >
+                    <img src="./Images/cai.jpeg">
+                </div>
+        
+            </div>
+
+            <div class="about-container">
+                <div >
+                    <img src="./Images/ctg.webp">
+                </div>
+        
+                <div class="about-details">
+                    <h2 >Python Programming Mentor (Volunteer) - Code The Gap</h2>
+                    <p>Created engaging lesson plans to teach Python programming basics to over 15 K-7th grade students, providing tailored support to ensure progress toward key learning milestones.</p>
+                        
+                </div>
+            </div>            
+        </div>
+    </div>
+    <!-- Projects -->
+    <div>
+        <h2 class="blue center fw-bold">Projects</h2>
+        <div class="about-container">
+            <div class="about-details">
+                <h2 >Sole Developer - NovelNest</h2>
+                <p>Developed a full-stack web application, NovelNest, using Node.js, Express.js, EJS, CSS, JavaScript, and PostgreSQL. The platform allows users to share and discuss books they've read by implementing CRUD functionality, relational data management, and integrating the Open Library Covers API for dynamic book cover images.</p>
+                <a href= "https://github.com/GardunoAlex/NovelNest" target="_blank">Github: NovelNest</a>
+            </div>
+
+        </div>
+    </div>
 
     <!-- Skills -->
-    <section Technical Skills class="background font">
-        <div class="container center ">
-            <h2 class="blue py-5">Technical Skills</h2>
-            <div class="row">
-                <h4 class="col-lg-4"> Python <span class="blue fst-italic">-- Intermediate --</span></h4>
-                <h4 class="col-lg-4">Java <span class="blue fst-italic">-- Intermediate --</span></h4>
-                <h4 class="col-lg-4">Ocaml <span class="blue fst-italic">-- Basic --</span></h4>
-                <h4 class="col-lg-4">HTML & CSS <span class="blue fst-italic">-- Intermediate --</span></h4>
-                <h4 class="col-lg-4">JavaScript <span class="blue fst-italic">-- Basic --</span></h4>
-                <h4 class="col-lg-4">NodeJS <span class="blue fst-italic">-- Basic --</span></h4>
-            </div>
+    <div class="center">
+        <h2 class="blue py-5">Languages</h2>
+        <div>
+            <table>
+                <tr>Python | </tr>
+                <tr>Java | </tr>
+                <tr>C | </tr>
+                <tr>Ocaml | </tr>
+                <tr>HTML & CSS | </tr>
+                <tr>React.js | </tr>
+                <tr>Node.js - Express.js | </tr>
+                <tr>SQL - PostgreSQL </tr>
+            </table>
         </div>
-    </section>
+    </div>
 
 
-    <!-- Contact -->
-    <section Contact>
-        <div class="contact-list background blue font py-5">
-            <h3>763-204-3109 | gardu022@umn.edu | <a href= "https://www.linkedin.com/in/alexandergarduno/" >Linkedin</a></h3>
-        </div>
-    </section>
+<!-- Contact -->
+    <div class="contact-list  blue font py-5">
+        <h3>763-204-3109 | gardu022@umn.edu | <a href= "https://www.linkedin.com/in/alexandergarduno/" target="_blank">Linkedin</a> | <a href= "https://github.com/GardunoAlex" target="_blank" >Github</a></h3>
+    </div>
 </body>
 </html>

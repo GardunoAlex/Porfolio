@@ -1,19 +1,14 @@
-.font{
+body {
+    background-color: #dbeeff;
     font-family: 'DM Serif Display', serif;
     font-family: 'Libre Baskerville', serif;
 }
-.background{
-    background-color: #DCF2F1;
-}
+
 
 .blue{
     color: #365486!important;
 }
-.me{
-    height: 230px;
-    width: 230px;
-    border-radius: 10px;
-}
+
 li{
     list-style: georgian outside;
 }
@@ -28,3 +23,71 @@ li{
     text-align: center;
     padding-bottom: 40px;
 }
+
+
+.about-container{
+    display: flex; /* Align items horizontally */
+    gap: 20px; /* Space between book cover and text */;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    margin-bottom: 25px; /* Space between different book containers */
+    margin-top: 25px; /* Optional: adds space above each book container */
+    align-items: center;
+    flex-direction: row-reverse;
+
+    animation-duration: 3s;
+    animation-name: slide;
+    animation-timing-function: ease-in-out;
+
+}
+
+.about-container:hover{
+    box-shadow: -5px 10px 15px rgba(54, 84, 134, 1);
+}
+
+.about-container img {
+    max-width: 150px; /* Constrain image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: -5px 10px 15px rgba(54, 84, 134, 1); /* Subtle shadow */
+}
+
+.about-details h2 {
+    margin: 0; /* Remove margin for the title */
+    padding-left: 10px;
+    font-size: 1.5em; /* Larger title font */
+}
+
+.about-details p {
+    margin: 5px; /* Add some space between paragraphs */
+    font-size: 1em; /* Font size for details */
+    line-height: 1.6;
+    padding: 10px;
+}
+
+.slide{
+    animation-duration: 1.5s;
+    animation-name: slide;
+    animation-timing-function: ease-in-out;
+    display: inline-block;
+}
+@keyframes slide{
+    from {
+      translate:0 150vw;
+      scale: 100% 1;
+    }
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+}
+
+
+
+
+
+
+  
